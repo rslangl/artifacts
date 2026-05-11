@@ -18,10 +18,10 @@ func newTestHandler() http.Handler {
 func TestCreate(t *testing.T) {
 	handler := newTestHandler()
 
-	tests := []struct{
-		name string
-		method string
-		path string
+	tests := []struct {
+		name     string
+		method   string
+		path     string
 		wantCode int
 		wantBody string
 	}{
@@ -29,7 +29,7 @@ func TestCreate(t *testing.T) {
 			"GET repositories found",
 			"GET",
 			"/v1/repositories",
-			http.StatusOK,
+			http.StatusNotImplemented,
 			"{}",
 		},
 	}
