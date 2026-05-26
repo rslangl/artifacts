@@ -4,7 +4,7 @@ go 1.26
 
 require (
 	github.com/oapi-codegen/oapi-codegen/v2 v2.7.0
-	github.com/oapi-codegen/runtime v1.4.0
+	github.com/oapi-codegen/runtime v1.4.1
 	go.yaml.in/yaml/v4 v4.0.0-rc.4
 )
 
